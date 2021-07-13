@@ -3,11 +3,10 @@
 	margin: 0px;
 	}
 .cats {
-	height: 50vh;
+	height: 70%;
 	background-image: url(bg-image.jpg);
 	background-size: cover;
 	filter: grayscale(50%);
-	background-repeat: repeat;
 }
 .kit {
 	color: white;
