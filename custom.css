@@ -3,7 +3,7 @@
 	margin: 0px;
 	}
 .cats {
-	height: 50%;
+	height: 50vh;
 	background-image: url(bg-image.jpg);
 	background-size: cover;
 	filter: grayscale(50%);
