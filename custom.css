@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	}
+.cats {
+	height: 80%;
+    background-image:url(bg-image.jpg);
+	background-size:cover;
+	filter: grayscale(50%);
+}
+.kit {
+	color: white;
+	text-align: center;
+	}
+.content {
+	padding: 10%;
+}
+.content h1 {
+	line-height: 200%;
+}
+.content p {
+	line-height: 150%;
+	font-size: 16px;
+}
+.content button {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	background: transparent;
+	border: 2px solid #FFF;
+	color: #FFF;
+	border-radius: 15px;
+	font-size: 14px;
+}
+.content button:hover {
+	border: 2px solid red;
+}
