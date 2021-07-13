@@ -3,10 +3,11 @@
 	margin: 0px;
 	}
 .cats {
-	height: 80%;
-    background-image:url(bg-image.jpg);
-	background-size:cover;
+
+	background-image: url(bg-image.jpg);
+	background-size: cover;
 	filter: grayscale(50%);
+	background-repeat: repeat;
 }
 .kit {
 	color: white;
@@ -17,10 +18,11 @@
 }
 .content h1 {
 	line-height: 200%;
+	font-size: -8vw;
 }
 .content p {
 	line-height: 150%;
-	font-size: 16px;
+	font-size: -3vw;
 }
 .content button {
 	margin-top: 20px;
@@ -30,7 +32,7 @@
 	border: 2px solid #FFF;
 	color: #FFF;
 	border-radius: 15px;
-	font-size: 14px;
+	font-size: -2vw;
 }
 .content button:hover {
 	border: 2px solid red;
